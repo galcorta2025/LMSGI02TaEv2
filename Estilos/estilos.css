@@ -33,7 +33,7 @@ h2 {
 }
 /*estilo para los parrafos de texto en las paginas web*/
 p{
-    font-size: 20px;
+    font-size: 10px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: justify;
 }
@@ -70,4 +70,5 @@ ol{
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+
 }
