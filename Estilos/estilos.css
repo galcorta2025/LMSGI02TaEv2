@@ -1,0 +1,73 @@
+/*estilo para la etiqueta header, para la cabecera-texto introductorio de las webs*/
+header{
+    background-color: #f2f2f2;
+}
+/*estilo para la parte principal de la web */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ddd;
+    text-align: justify;
+}
+/*estilo para los pies de paginas*/
+footer{
+    background-color: #f2f2f2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: red;
+}
+/*estilo para primer encabezado*/
+h1 { 
+    color: #4CAF50; 
+    font-size: 48px; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    text-align: center;
+    padding: 20px; 
+}
+/*estilo para el segundo tipo de encabezado */
+h2 {
+    color: red; 
+    font-size: 36px; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    text-align: center;
+    padding: 20px; 
+}
+/*estilo para los parrafos de texto en las paginas web*/
+p{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: justify;
+}
+/*estilo para listas desordenadas*/
+ul{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+/*estilo para listas ordenadas*/
+ol{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-position: inside;
+}
+/*estilos para la barra de navegación y comportamiento de la barra de navegación*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
