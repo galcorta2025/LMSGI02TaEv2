@@ -33,7 +33,7 @@ h2 {
 }
 /*estilo para los parrafos de texto en las paginas web*/
 p{
-    font-size: 10px;
+    font-size: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: justify;
 }
@@ -72,3 +72,4 @@ ol{
   color: white;
 
 }
+
