@@ -48,13 +48,14 @@ function Mayuskulazjarri(event) {
   input.value = input.value.toUpperCase();
 }
 
-<!-- document.addEventListener('DOMContentLoaded', --> function () {
+document.addEventListener('DOMContentLoaded', function () {
   const inputIzena = document.getElementById('izena');
   if (inputIzena) {
 	  alert(document.getElementById('izena'););
     inputIzena.addEventListener('blur', Mayuskulazjarri);
   }
 })
+
 
 
 
