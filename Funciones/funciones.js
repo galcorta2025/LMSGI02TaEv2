@@ -7,11 +7,29 @@ function AbrirPagina(valor){
 		window.open("https://www.gipuzkoasansebastian.eus/eu/hasiera");	
 	} else {
 		if (valor ==2){
-		window.open("https://www.visitbiscay.eus/es/inicio");
+			window.open("https://www.visitbiscay.eus/es/inicio");
 		} else {
-alert("beste bat");
+			if (valor ==3){
+				window.open("https://alavaturismo.eus/es/");
+			} else {
+				if (valor ==4){
+					window.open("https://www.visitnavarra.es/es/");
+				} else {
+					if (valor ==5){
+						window.open("https://www.guide-du-paysbasque.com/es/turismo/descubrir/visitar-el-pais-vasco/el-labourd.html");
+					} else {
+						if (valor ==6){
+							window.open("https://www.guide-du-paysbasque.com/es/turismo/descubrir/visitar-el-pais-vasco/baja-navarra.html");
+						} else {
+							window.open("https://www.en-pays-basque.fr/es/territorio-y-destino/zuberoa/");
+						}
+					}
+				}
+			}
+		}
 	}
 }
+
 
 
 
