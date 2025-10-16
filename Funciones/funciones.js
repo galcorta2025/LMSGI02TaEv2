@@ -51,9 +51,10 @@ function Mayuskulazjarri(event) {
 document.addEventListener('DOMContentLoaded', function () {
   const inputIzena = document.getElementById('funtzioa');
   if (inputIzena) {
-    inputIzena.addEventListener('blur', convertirAMayusculas);
+    inputIzena.addEventListener('blur', Mayuskulazjarri);
   }
 })
+
 
 
 
