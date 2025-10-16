@@ -43,7 +43,7 @@ function Correo() {
     }
 
 
-function Mayuskulazjarri(event) {
+function Maiuskulazjarri(event) {
   const input = event.target;
   input.value = input.value.toUpperCase();
 }
@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
     inputIzena.addEventListener('blur', Mayuskulazjarri);
   }
 })
+
 
 
 
