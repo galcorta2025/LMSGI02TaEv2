@@ -43,31 +43,8 @@ function Correo() {
     }
 
 
-function Maiuskulazjarri(event) {
-  const input = event.target;
+function Maiuskulazjarri() {
+  const input = document.getElementById("izena");
   input.value = input.value.toUpperCase();
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-  const inputIzena = document.getElementById('izena');
-	alert("hola");
-  if (inputIzena) {
-	  alert(document.getElementById('izena'););
-    inputIzena.addEventListener('blur', Mayuskulazjarri);
-  }
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
