@@ -42,8 +42,11 @@ function Correo() {
 	window.location.href = mailto;
     }
 
+const input = document.getElementById('funtzioa');
 
-
+  input.addEventListener('blur', function () {
+    input.value = input.value.toUpperCase();
+  });
 
 
 
