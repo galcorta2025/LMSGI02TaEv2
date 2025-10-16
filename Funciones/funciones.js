@@ -1,7 +1,8 @@
+/* Funcion para mostrar un mensaje cuando se clica en el boton en la pagina index.html */
 function MostrarMensaje() {
 	alert("Este mensaje se abre al clicar el botón")
 }
-
+/* Funcion para abrir diferentes paginas web segun el texto clicado, pagina Destinos */
 function AbrirPagina(valor){
 	if (valor == 1){
 		window.open("https://www.gipuzkoasansebastian.eus/eu/hasiera");	
@@ -29,11 +30,11 @@ function AbrirPagina(valor){
 		}
 	}
 }
-
+/*funcion para salir un mensaje con el telefono de la diputacion foral de gipuzkoa, en la pagina participantes */
 function TelefonoGipuzkoa(){
 	alert("943 112111")
 }
-
+/* funcion para abrir un mensaje de correo en el programa predefinido en el ordenador, para la pagina sobrenosotros */
 function Correo() {
     const Nori = "galcorta@birt.eus";
     const Gaia = "Mezua";
@@ -41,12 +42,11 @@ function Correo() {
 	const mailto = `mailto:${Nori}?subject=${encodeURIComponent(Gaia)}&body=${encodeURIComponent(Mezua)}`;
 	window.location.href = mailto;
     }
-
-
+/* funcion para pasar a mayusculas el valor del campo izena, en la pagina Solicitarinformacion*/
 function Maiuskulazjarri() {
   const input = document.getElementById("izena");
-	alert("mesu");
   input.value = input.value.toUpperCase();
 }
+
 
 
