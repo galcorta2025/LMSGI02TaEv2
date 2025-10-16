@@ -30,6 +30,9 @@ function AbrirPagina(valor){
 	}
 }
 
+function TelefonoGipuzkoa(){
+	alert("943 112111")
+}
 
 
 
