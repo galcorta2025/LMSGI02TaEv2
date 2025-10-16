@@ -45,6 +45,8 @@ function Correo() {
 
 function Maiuskulazjarri() {
   const input = document.getElementById("izena");
+	alert("mesu");
   input.value = input.value.toUpperCase();
 }
+
 
