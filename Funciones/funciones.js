@@ -42,11 +42,19 @@ function Correo() {
 	window.location.href = mailto;
     }
 
-const input = document.getElementById('funtzioa');
 
-  input.addEventListener('blur', function () {
-    input.value = input.value.toUpperCase();
-  });
+function Mayuskulazjarri(event) {
+  const input = event.target;
+  input.value = input.value.toUpperCase();
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const inputIzena = document.getElementById('izena');
+  if (inputIzena) {
+    inputIzena.addEventListener('blur', convertirAMayusculas);
+  }
+})
+
 
 
 
