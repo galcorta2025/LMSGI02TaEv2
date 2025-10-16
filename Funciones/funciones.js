@@ -51,10 +51,11 @@ function Mayuskulazjarri(event) {
 <!-- document.addEventListener('DOMContentLoaded', --> function () {
   const inputIzena = document.getElementById('izena');
   if (inputIzena) {
-	  alert(inputIZena);
+	  alert(document.getElementById('izena'););
     inputIzena.addEventListener('blur', Mayuskulazjarri);
   }
 })
+
 
 
 
