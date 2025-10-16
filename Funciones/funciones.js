@@ -1,4 +1,5 @@
-Function MostrarMensaje() {
+function MostrarMensaje() {
 	alert("Este mensaje se abre al clicar el botón")
 }
+
 
