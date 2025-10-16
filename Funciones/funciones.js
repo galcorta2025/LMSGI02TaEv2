@@ -40,8 +40,9 @@ function Correo() {
       const Mezua = "Este es el contenido del mensaje.";
 <!--      const mailto = `mailto:${Nori}?subject=${encodeURIComponent(Gaia)}&body=${encodeURIComponent(Mezua)}`; -->
 alert("Nori" + Nori);
-      window.location.href = mailto;
+<!--      window.location.href = mailto; -->
     }
+
 
 
 
