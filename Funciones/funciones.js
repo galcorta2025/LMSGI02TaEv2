@@ -4,12 +4,13 @@ function MostrarMensaje() {
 
 function AbrirPagina(valor){
 	if (valor == 1){
-alert("gipu");
+		window.open("https://www.birt.eus");
 		
 	} else {
 alert("beste bat");
 	}
 }
+
 
 
 
