@@ -41,9 +41,10 @@ function Correo() {
 
 
       const mailto = `mailto:${Nori}?subject=${encodeURIComponent(Gaia)}&body=${encodeURIComponent(Mezua)}`;
-
+alert("mezua");
       window.location.href = mailto;
     }
+
 
 
 
