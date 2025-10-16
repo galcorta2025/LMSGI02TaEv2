@@ -3,6 +3,12 @@ function MostrarMensaje() {
 }
 
 function AbrirPagina(valor){
-alert(valor)
+	if (valor ==1){
+alert(valor);
+		
+	} else {
+alert("beste bat");
+	}
 }
+
 
