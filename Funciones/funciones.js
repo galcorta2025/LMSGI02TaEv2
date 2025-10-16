@@ -4,12 +4,15 @@ function MostrarMensaje() {
 
 function AbrirPagina(valor){
 	if (valor == 1){
-		window.open("https://www.birt.eus");
-		
+		window.open("https://www.gipuzkoasansebastian.eus/eu/hasiera");	
 	} else {
+		if (valor ==2){
+		window.open("https://www.visitbiscay.eus/es/inicio");
+		} else {
 alert("beste bat");
 	}
 }
+
 
 
 
