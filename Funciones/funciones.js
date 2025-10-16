@@ -4,12 +4,13 @@ function MostrarMensaje() {
 
 function AbrirPagina(valor){
 	if (valor == 1){
-alert(valor);
+alert("gipu");
 		
 	} else {
 alert("beste bat");
 	}
 }
+
 
 
 
